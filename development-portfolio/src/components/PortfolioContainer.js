@@ -1,5 +1,11 @@
 import React from "react";
+import Nav from "./Nav";
 
-const PortfolioContainer = () => <div><p>test</p></div>;
-
-export default PortfolioContainer;
+export default function PortfolioContainer() {
+    return (
+        <div>
+            <Nav />
+            {/* {renderPage()} */}
+        </div>
+    )
+};
