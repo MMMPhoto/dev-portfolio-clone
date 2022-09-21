@@ -1,9 +1,13 @@
 import React from "react";
 
-export default function Nav() {
+export default function Nav({pages}) { 
     return (
         <nav>
-            nav test
+            <ul>
+                {pages.map((page) => (
+                <li>{page}</li>
+                ))}            
+            </ul>
         </nav>
     );
 };
