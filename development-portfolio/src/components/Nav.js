@@ -5,8 +5,10 @@ export default function Nav({pages}) {
         <nav>
             <ul>
                 {pages.map((page) => (
-                <li>{page}</li>
-                ))}            
+                <li key={page}>
+                    <a href={page}>{page}</a>
+                </li>
+                ))}
             </ul>
         </nav>
     );
