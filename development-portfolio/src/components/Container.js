@@ -49,9 +49,13 @@ export default function Container() {
 
     return (
         <div>
-            <Header pageList={pageList} currentPage={currentPage} handlePage={handlePage} />
-            <Nav pages={pageList} currentPage={currentPage} handlePage={handlePage}/>
-            {renderPage()}
+            <div class="d-flex flex-row col-12">
+                <Header pageList={pageList} currentPage={currentPage} handlePage={handlePage} />
+                <Nav pages={pageList} currentPage={currentPage} handlePage={handlePage}/>
+            </div>
+            <main class="p-3">
+                {renderPage()}
+            </main>
             <Footer />
         </div>
     )
