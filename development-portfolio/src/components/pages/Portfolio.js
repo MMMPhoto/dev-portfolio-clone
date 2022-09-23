@@ -3,7 +3,7 @@ import React from "react";
 export default function Portfolio() {
     return (
         <div>
-            <h2>Portfolio Content</h2>
+            <h2>Portfolio</h2>
             <div className="d-flex flex-row flex-wrap justify-content-center">
                 <div className="card text-black col-5 m-4">
                     <img className="" src="https://via.placeholder.com/500x200"></img>
