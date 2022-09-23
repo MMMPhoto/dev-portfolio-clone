@@ -49,11 +49,11 @@ export default function Container() {
 
     return (
         <div>
-            <div class="d-flex flex-row col-12">
+            <div className="d-flex flex-row col-12">
                 <Header pageList={pageList} currentPage={currentPage} handlePage={handlePage} />
                 <Nav pages={pageList} currentPage={currentPage} handlePage={handlePage}/>
             </div>
-            <main class="p-3">
+            <main className="p-3">
                 {renderPage()}
             </main>
             <Footer />
