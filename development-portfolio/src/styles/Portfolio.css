@@ -9,3 +9,18 @@
     opacity: 100%;
     transition: opacity 0.5s;
 }
+
+.portfolio-link {
+    color: #e5dbbc;
+    transition: color 0.3s;
+}
+
+.portfolio-link:hover {
+    color: #aeb3d3;
+    transition: color 0.3s;
+}
+
+.portfolio-desc {
+    color: #bab29b
+
+}

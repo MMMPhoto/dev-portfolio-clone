@@ -14,10 +14,11 @@ export default function Portfolio() {
                     <div key={item.id} className="card text-black col-5 m-4">
                         <img src={item.imgSrc} alt={item.name}></img>
                         <div className="card-img-overlay overlay">
-                            <h5 className="card-title w-100 h-100">
-                                <a className="m-2" href={item.deploymentUrl} target="_blank" rel="noreferrer">{item.name}</a>
-                                <a className="m-2" href={item.githubRepo} target="_blank" rel="noreferrer"><AiFillGithub /></a>
+                            <h5 className="card-title w-100 h-20">
+                                <a className="m-2 portfolio-link" href={item.deploymentUrl} target="_blank" rel="noreferrer">{item.name}</a>
+                                <a className="m-2 portfolio-link" href={item.githubRepo} target="_blank" rel="noreferrer"><AiFillGithub /></a>
                             </h5>
+                            <p className="card-text w-100 h-80 m-2 portfolio-desc">{item.description}</p>
                         </div>
                     </div>
                 ))}
