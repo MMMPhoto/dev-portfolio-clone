@@ -28,11 +28,11 @@ export default function Container() {
 
     return (
         <div>
-            <div className="d-flex flex-row col-12">
+            <div className="d-flex flex-row justify-content-between">
                 <Header pageList={pageList} currentPage={currentPage} handlePage={handlePage} />
                 <Nav pages={pageList} currentPage={currentPage} handlePage={handlePage}/>
             </div>
-            <main className="p-3">
+            <main className="p-3 col-12 w-100">
                 {renderPage()}
             </main>
             <Footer />
