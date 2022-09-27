@@ -1,3 +1,9 @@
+.portfolio-img {
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+
 .overlay {
     background-color: rgba(0, 0, 0, 0.3);
     opacity: 0%;
