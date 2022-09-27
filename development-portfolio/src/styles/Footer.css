@@ -1,3 +1,8 @@
-#footer-icon {
+.footer-icon {
     font-size: 72px;
+    color: #465887;
+}
+
+.footer-icon:hover {
+    color: #8fa3d7;
 }

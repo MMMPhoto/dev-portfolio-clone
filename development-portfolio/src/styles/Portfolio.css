@@ -5,7 +5,7 @@
 }
 
 .overlay {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     opacity: 0%;
     transition: opacity 0.5s;
 }
@@ -16,16 +16,16 @@
 }
 
 .portfolio-link {
-    color: #e5dbbc;
+    color: #465887;
     transition: color 0.3s;
 }
 
 .portfolio-link:hover {
-    color: #aeb3d3;
+    color: #8fa3d7;
     transition: color 0.3s;
 }
 
 .portfolio-desc {
-    color: #bab29b
+    color: #465887;
 
 }
