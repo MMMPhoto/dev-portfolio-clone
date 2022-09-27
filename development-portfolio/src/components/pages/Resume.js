@@ -2,9 +2,11 @@ import React from "react";
 
 export default function Resume() {
     return (
-        <div>
+        <div className="m-5">
              <h2>Resume</h2>
+                <br></br>
                 <h5><a href="https://drive.google.com/uc?export=download&id=10eN_6-1cOHhLafMNmpsXhN0OWkmkPEFk">Download my Resume</a></h5>
+                <br></br>
              <h4>Proficiencies</h4>
                 <ul>
                     <li>Full Stack Web and App Development</li>

@@ -7,7 +7,7 @@ import "../../styles/Portfolio.css";
 export default function Portfolio() {
 
     return (
-        <div>
+        <div className="m-5">
             <h2>Portfolio</h2>
             <div className="d-flex flex-row flex-wrap justify-content-center">
                 {portfolioItems.slice(0).reverse().map((item) => (

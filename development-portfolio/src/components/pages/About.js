@@ -4,7 +4,7 @@ import maxPhoto from "../../images/Atlanta-Wedding-Photographer-LeahAndMark-0187
 
 export default function About() {
     return (
-        <div className="ps-5">
+        <div className="m-5">
             <h2>About Me</h2>
                 <div className="d-flex flex-row justify-content-between">
                     <img className="align-self-start" id="bio-photo" src={maxPhoto} alt="pic of Max"></img>
