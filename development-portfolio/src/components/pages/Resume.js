@@ -4,27 +4,27 @@ export default function Resume() {
     return (
         <div>
              <h2>Resume</h2>
-                <h5><a href="">Download my Resume</a></h5>
+                <h5><a href="https://drive.google.com/uc?export=download&id=10eN_6-1cOHhLafMNmpsXhN0OWkmkPEFk">Download my Resume</a></h5>
              <h4>Proficiencies</h4>
                 <ul>
-                    <li>List item</li>
-                    <li>List item</li>
-                    <li>List item</li>
-                    <li>List item</li>
+                    <li>Full Stack Web and App Development</li>
+                    <li>React JS</li>
+                    <li>NoSQL and SQL Databases</li>
+                    <li>GraphQL and RESFUL API Routing</li>
+                    <li>Node JS</li>
+                    <li>Express JS</li>
+                    <li>MVC software architecture</li>
+                    <li>OOP Programming</li>
+                    <li>Basic Javascript, CSS, and HTML</li>
                 </ul>
             <h4>Languages</h4>
                 <ul>
-                    <li>List item</li>
-                    <li>List item</li>
-                    <li>List item</li>
-                    <li>List item</li>
+                    <li>Javascript</li>
+                    <li>MySQL</li>
                 </ul>
-            <h4>Certifcations</h4>
+            <h4>Certifications</h4>
                 <ul>
-                    <li>List item</li>
-                    <li>List item</li>
-                    <li>List item</li>
-                    <li>List item</li>
+                    <li>Graduate: Georgia Tech University Full Stack Development Boot Camp</li>
                 </ul>
         </div>
     )
