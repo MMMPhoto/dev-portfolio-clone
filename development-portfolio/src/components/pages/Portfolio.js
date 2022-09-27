@@ -15,12 +15,12 @@ export default function Portfolio() {
                         <div className="d-flex justify-content-center align-items-start overflow-hidden">
                             <img className="flex-shrink-0 portfolio-img" src={item.imgSrc} alt={item.name}></img>
                         </div>
-                        <div className="card-img-overlay overlay">
-                            <h5 className="card-title w-100 h-20">
+                        <div className="card-img-overlay overlay d-flex flex-column justify-content-center align-items-center">
+                            <h5 className="card-title w-100 h-20 text-center">
                                 <a className="m-2 portfolio-link" href={item.deploymentUrl} target="_blank" rel="noreferrer">{item.name}</a>
-                                <a className="m-2 portfolio-link" href={item.githubRepo} target="_blank" rel="noreferrer"><AiFillGithub /></a>
+                                <a className="m-2 portfolio-link icon-link" href={item.githubRepo} target="_blank" rel="noreferrer"><AiFillGithub /></a>
                             </h5>
-                            <p className="card-text w-100 h-80 m-2 portfolio-desc">{item.description}</p>
+                            <p className="card-text text-center w-100 h-80 m-2 portfolio-desc">{item.description}</p>
                         </div>
                     </div>
                 ))}

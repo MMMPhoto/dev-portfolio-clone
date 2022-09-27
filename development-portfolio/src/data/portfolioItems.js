@@ -1,4 +1,6 @@
 import adoptMeScreenshot from "../images/Adopt-Me-Screenshot.png";
+import socialApi from "../images/Social-Media-API-Screenshot.png";
+import portfolioScreenshot from "../images/Portfolio-Screenshot.png";
 
 const portfolioItems = [
     {
@@ -39,15 +41,15 @@ const portfolioItems = [
         description: "Node, Express, Mongoose, Mongo (server-side only)",
         deploymentUrl: "https://github.com/MMMPhoto/Social-Network-API",
         githubRepo: "https://github.com/MMMPhoto/Social-Network-API",
-        imgSrc: "https://raw.githubusercontent.com/MMMPhoto/Social-Network-API/main/assets/social-network-api-screenshot-1.png"
+        imgSrc: `${socialApi}`
     },
     {
         id: 6,
         name: "Development Portfolio",
-        description: "React",
+        description: "React, Node JS",
         deploymentUrl: "https://mmmphoto.github.io/Development-Portfolio/",
         githubRepo: "https://github.com/MMMPhoto/Development-Portfolio",
-        imgSrc: "https://via.placeholder.com/500x200"
+        imgSrc: `${portfolioScreenshot}`
     }
 ];
 
