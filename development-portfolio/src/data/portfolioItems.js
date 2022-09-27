@@ -13,11 +13,11 @@ const portfolioItems = [
     },
     {
         id: 2,
-        name: "Event Finder",
-        description: "Web APIs, Javascript, CSS, HTML",
-        deploymentUrl: "https://mmmphoto.github.io/Event-Finder/",
-        githubRepo: "https://github.com/MMMPhoto/Event-Finder",
-        imgSrc: "https://user-images.githubusercontent.com/70594281/174419344-26644f83-8f0c-4395-9b49-65ef8950d945.png"
+        name: "Tech Blog",
+        description: "MVC, Node, Express, Sequelize, SQL",
+        deploymentUrl: "https://max-tech-blog.herokuapp.com/",
+        githubRepo: "https://github.com/MMMPhoto/Tech-Blog",
+        imgSrc: "https://raw.githubusercontent.com/MMMPhoto/Tech-Blog/main/assets/images/tech-blog-screenshot-1.png"
     },
     {
         id: 3,
@@ -29,11 +29,11 @@ const portfolioItems = [
     },
     {
         id: 4,
-        name: "Tech Blog",
-        description: "MVC, Node, Express, Sequelize, SQL",
-        deploymentUrl: "https://max-tech-blog.herokuapp.com/",
-        githubRepo: "https://github.com/MMMPhoto/Tech-Blog",
-        imgSrc: "https://raw.githubusercontent.com/MMMPhoto/Tech-Blog/main/assets/images/tech-blog-screenshot-1.png"
+        name: "Event Finder",
+        description: "Web APIs, Javascript, CSS, HTML",
+        deploymentUrl: "https://mmmphoto.github.io/Event-Finder/",
+        githubRepo: "https://github.com/MMMPhoto/Event-Finder",
+        imgSrc: "https://user-images.githubusercontent.com/70594281/174419344-26644f83-8f0c-4395-9b49-65ef8950d945.png"
     },
     {
         id: 5,
