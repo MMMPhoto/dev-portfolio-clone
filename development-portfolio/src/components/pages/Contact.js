@@ -26,7 +26,7 @@ export default function Contact() {
     };
 
     return (
-        <div className="m-5">
+        <div className="m-5 mt-0 mb-0 d-flex flex-column align-items-center align-items-lg-start">
             <h3>Contact</h3>
             <form ref={form} onSubmit={sendEmail} className="form-control border-0">
                 <div className="form-group m-2">

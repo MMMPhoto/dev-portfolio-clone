@@ -7,11 +7,11 @@ import "../../styles/Portfolio.css";
 export default function Portfolio() {
 
     return (
-        <div className="m-5">
+        <div className="m-5 mt-0 mb-0 d-flex flex-column align-items-center align-items-lg-start">
             <h2>Portfolio</h2>
             <div className="d-flex flex-row flex-wrap justify-content-center">
                 {portfolioItems.slice(0).reverse().map((item) => (
-                    <div key={item.id} className="card text-black col-5 m-4">
+                    <div key={item.id} className="card text-black col-10 col-lg-5 m-4">
                         <div className="d-flex justify-content-center align-items-start overflow-hidden">
                             <img className="flex-shrink-0 portfolio-img" src={item.imgSrc} alt={item.name}></img>
                         </div>
