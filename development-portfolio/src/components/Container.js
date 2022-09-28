@@ -28,7 +28,7 @@ export default function Container() {
 
     return (
         <div>
-            <div className="d-flex flex-row justify-content-between">
+            <div className="d-flex flex-column flex-lg-row justify-content-between">
                 <Header pageList={pageList} currentPage={currentPage} handlePage={handlePage} />
                 <Nav pages={pageList} currentPage={currentPage} handlePage={handlePage}/>
             </div>

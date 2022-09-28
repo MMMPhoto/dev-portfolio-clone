@@ -1,15 +1,39 @@
 #title {
-    font-size: 2.6vw;
+    font-size: 5vw;
 }
 
 #subtitle {
-    font-size: 1.4vw;
+    font-size: 3.5vw;
 }
 
 #logoContainer {
-    width: 20vw;
+    width: 45vw;
 }
 
 #logoImg {
     width: 100%;
+}
+
+/* @media (min-width: 576px) {
+    #title {
+        font-size: 3.6vw
+    }
+    #subtitle {
+        font-size: 2.7vw;
+    }
+    #logoContainer {
+        width: 30vw;
+    }
+} */
+
+@media (min-width: 992px) {
+    #title {
+        font-size: 2.6vw
+    }
+    #subtitle {
+        font-size: 1.4vw;
+    }
+    #logoContainer {
+        width: 20vw;
+    }
 }
