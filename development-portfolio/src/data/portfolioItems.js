@@ -1,6 +1,7 @@
 import adoptMeScreenshot from "../images/Adopt-Me-Screenshot.png";
 import socialApi from "../images/Social-Media-API-Screenshot.png";
-import portfolioScreenshot from "../images/Portfolio-Screenshot.png";
+// import portfolioScreenshot from "../images/Portfolio-Screenshot.png";
+import viewFromHereScreenshot from "../images/View-From-Here-screenshot.png"
 
 const portfolioItems = [
     {
@@ -45,12 +46,12 @@ const portfolioItems = [
     },
     {
         id: 6,
-        name: "Development Portfolio",
-        description: "React, Node JS",
-        deploymentUrl: "https://mmmphoto.github.io/Development-Portfolio/",
-        githubRepo: "https://github.com/MMMPhoto/Development-Portfolio",
-        imgSrc: `${portfolioScreenshot}`
-    }
+        name: "View From Here",
+        description: "MERN Full Stack (React, Mongo, NodeJS, Express), Google Maps API",
+        deploymentUrl: "https://viewfromhere.herokuapp.com/",
+        githubRepo: "https://github.com/MMMPhoto/View-From-Here",
+        imgSrc: `${viewFromHereScreenshot}`
+    },
 ];
 
 export default portfolioItems;
