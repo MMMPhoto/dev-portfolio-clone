@@ -5,19 +5,23 @@ export default function Resume() {
         <div className="m-5 mt-0 mb-0 d-flex flex-column align-items-center align-items-lg-start">
              <h2 className="text-center text-lg-start">Resume</h2>
                 <br></br>
-                <h5><a href="https://drive.google.com/uc?export=download&id=10eN_6-1cOHhLafMNmpsXhN0OWkmkPEFk">Download my Resume</a></h5>
+                <h5><a href="https://docs.google.com/document/d/1VRYrZn1ywYJyVezHdJHB3-S9vtUisbd1upvIRaHX4sE/export?format=pdf">Download my Resume</a></h5>
                 <br></br>
-             <h4>Proficiencies</h4>
+             <h4>Technical Skills</h4>
                 <ul className="col-9">
-                    <li>Full Stack Web and App Development</li>
-                    <li>React JS</li>
-                    <li>NoSQL and SQL Databases</li>
-                    <li>GraphQL and RESFUL API Routing</li>
+                    <li>Javascript ES6+</li>
+                    <li>CSS3</li>
+                    <li>HTML5</li>
+                    <li>React</li>
                     <li>Node JS</li>
-                    <li>Express JS</li>
-                    <li>MVC software architecture</li>
-                    <li>OOP Programming</li>
-                    <li>Basic Javascript, CSS, and HTML</li>
+                    <li>Express</li>
+                    <li>NoSQL and SQL</li>
+                    <li>MongoDB</li>
+                    <li>MySQL</li>
+                    <li>Apollo Server</li>
+                    <li>GraphQL</li>
+                    <li>Git</li>
+                    <li>Bootstrap</li>
                 </ul>
             <h4>Languages</h4>
                 <ul className="col-9">
