@@ -34,15 +34,13 @@ export default function Container() {
                     <Header pageList={pageList} currentPage={currentPage} handlePage={handlePage} />
                     <Nav pages={pageList} currentPage={currentPage} handlePage={handlePage}/>
                 </div>
-                <main className="p-3 pt-0 pt-lg-3 col-12 w-100">
                     <Routes>
-                        <Route exact path="/" element={<About />}/>
-                        <Route exact path="/porfolio" element={<Portfolio />}/>
-                        <Route exact path="/contact" element={<Contact />}/>
-                        <Route exact path="/resume" element={<Resume />}/>
+                        <Route exact path="/" element={<About />} />
+                        <Route exact path="/porfolio" element={<Portfolio />} />
+                        <Route exact path="/contact" element={<Contact />} />
+                        <Route exact path="/resume" element={<Resume />} />
                     </Routes>
                     {/* {renderPage()} */}
-                </main>
                 <Footer />
             </Router>
         </div>
