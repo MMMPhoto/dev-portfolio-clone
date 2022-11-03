@@ -12,19 +12,6 @@ import pageList from "../data/pageList";
 export default function Container() {
     const [currentPage, setCurrentPage] = useState('');
 
-    // const renderPage = () => {
-    //     switch (currentPage) {
-    //         case "About":
-    //             return <About />;
-    //         case "Portfolio":
-    //             return <Portfolio />;
-    //         case "Contact":
-    //             return <Contact />;
-    //         default:
-    //             return <Resume />;
-    //     };
-    // };
-
     const handlePage = (page) => setCurrentPage(page);
 
     return (
@@ -40,7 +27,6 @@ export default function Container() {
                         <Route exact path="/Development-Portfolio/contact" element={<Contact />} />
                         <Route exact path="/Development-Portfolio/resume" element={<Resume />} />
                     </Routes>
-                    {/* {renderPage()} */}
                 <Footer />
             </Router>
         </div>
