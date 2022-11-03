@@ -35,10 +35,10 @@ export default function Container() {
                     <Nav pages={pageList} currentPage={currentPage} handlePage={handlePage}/>
                 </div>
                     <Routes>
-                        <Route exact path="/" element={<About />} />
-                        <Route exact path="/porfolio" element={<Portfolio />} />
-                        <Route exact path="/contact" element={<Contact />} />
-                        <Route exact path="/resume" element={<Resume />} />
+                        <Route exact path="/Development-Portfolio" element={<About />} />
+                        <Route exact path="/Development-Portfolio/work" element={<Portfolio />} />
+                        <Route exact path="/Development-Portfolio/contact" element={<Contact />} />
+                        <Route exact path="/Development-Portfolio/resume" element={<Resume />} />
                     </Routes>
                     {/* {renderPage()} */}
                 <Footer />
