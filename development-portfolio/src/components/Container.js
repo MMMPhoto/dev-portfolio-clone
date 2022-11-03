@@ -10,7 +10,7 @@ import Resume from "./pages/Resume";
 import pageList from "../data/pageList";
 
 export default function Container() {
-    const [currentPage, setCurrentPage] = useState('About');
+    const [currentPage, setCurrentPage] = useState('');
 
     // const renderPage = () => {
     //     switch (currentPage) {
