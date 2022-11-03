@@ -1,5 +1,5 @@
 /* Override default Bootstrap behavior */
-.activeBtn {
+.custom-Active {
     color: #fff !important;
     background-color: #465887 !important;
 }

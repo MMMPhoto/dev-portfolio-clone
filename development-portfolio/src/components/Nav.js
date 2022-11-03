@@ -28,12 +28,11 @@ export default function Nav({pages, currentPage, handlePage}) {
             </NavLink> */}
                 
                 {pages.map((page) => (
-                    <NavLink className={page.name === currentPage ? "nav-link active activeBtn" : "nav-link"} to={`/Development-Portfolio/${page.link}`}>
-                        <li key={page.id} className="nav-item col-4 col-lg-1 ms-5 me-5 ms-lg-4 me-lg-4">
+                    <li key={page.id} className="nav-item col-4 col-lg-1 ms-5 me-5 ms-lg-4 me-lg-4">
+                        <NavLink className={page.name === currentPage ? "btn customActive" : "btn btn-light"} to={`/Development-Portfolio/${page.link}`}>
                             {page.name}
-                        </li>
-                    </NavLink>
-                    
+                        </NavLink>
+                    </li>
                 ))}
             </ul>
         </nav>
