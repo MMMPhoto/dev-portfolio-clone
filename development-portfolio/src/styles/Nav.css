@@ -1,7 +1,9 @@
-/* Override default Bootstrap behavior */
-.custom-Active {
-    color: #fff !important;
+.nav-link.active {
+    color: #FFF !important;
     background-color: #465887 !important;
 }
 
+.nav-link:hover {
+    background-color: #8fa3d7 !important;
+}
 
