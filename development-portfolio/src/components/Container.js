@@ -26,23 +26,17 @@ export default function Container() {
                 <Header />
                 <Nav pages={pageList} location={location} />
             </div>
-            <div className="d-flex flex-column">
-                <div className="order-first">
-                    {transitions((props, item) => (
-                        <animated.div style={props}>
-                            <Routes location={item}>
-                                <Route path="/Development-Portfolio" element={<About />} />
-                                <Route path="/Development-Portfolio/work" element={<Portfolio />} />
-                                <Route path="/Development-Portfolio/contact" element={<Contact />} />
-                                <Route path="/Development-Portfolio/resume" element={<Resume />} />
-                            </Routes>
-                        </animated.div>
-                    ))}
-                </div>
-                <div className="order-last">
-                    <Footer />
-                </div>
-            </div>
+            {transitions((props, item) => (
+                <animated.div style={props}>
+                    <Routes location={item}>
+                        <Route path="/Development-Portfolio" element={<About />} />
+                        <Route path="/Development-Portfolio/work" element={<Portfolio />} />
+                        <Route path="/Development-Portfolio/contact" element={<Contact />} />
+                        <Route path="/Development-Portfolio/resume" element={<Resume />} />
+                    </Routes>
+                </animated.div>
+            ))}
+            <Footer />
         </div>
     )
 };
