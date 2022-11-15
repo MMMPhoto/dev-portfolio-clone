@@ -1,10 +1,14 @@
 import React from "react";
 import { AiFillGithub } from "react-icons/ai";
+import { useMediaQuery } from 'react-responsive';
 
 import portfolioItems from "../../data/portfolioItems";
 import "../../styles/Portfolio.css";
 
 export default function Portfolio() {
+    // Query screen size for mobile and tablet conditional render
+    const isMobile = useMediaQuery({ query: '(max-width: 700px)' });
+    const isTablet = useMediaQuery({ query: '(max-width: 1200px)' });
 
     return (
              <div className="m-5 mt-0 mb-0 d-flex flex-column align-items-center align-items-lg-start">
@@ -17,11 +21,11 @@ export default function Portfolio() {
                             </div>
                             <div className="card-img-overlay overlay d-flex flex-column justify-content-center align-items-center">
                                 <h5 className="card-title w-100 h-20 text-center">
-                                    <a className="m-2 portfolio-link" href={item.deploymentUrl} target="_blank" rel="noreferrer">{item.name}</a>
-                                    <a className="m-2 portfolio-link icon-link" href={item.githubRepo} target="_blank" rel="noreferrer"><AiFillGithub /></a>
+                                    <a className="m-2 ms-0 portfolio-link" href={item.deploymentUrl} target="_blank" rel="noreferrer">{item.name}</a>
+                                    <a className="m-2 me-0 portfolio-link icon-link" href={item.githubRepo} target="_blank" rel="noreferrer"><AiFillGithub /></a>
                                 </h5>
-                                <p className="card-text text-center w-100 h-80 m-2 portfolio-desc">{item.skills}</p>
-                                {/* <p className="card-text text-center w-100 h-80 m-2 portfolio-desc">{item.description}</p> */}
+                                {isMobile ? <></> : <p className="card-text text-center w-100 h-80 m-2 portfolio-desc">{item.skills}</p>}
+                                {isTablet ? <></> : <p className="card-text text-center w-100 h-80 m-2 portfolio-desc">{item.description}</p>}
                             </div>
                         </div>
                     ))}
