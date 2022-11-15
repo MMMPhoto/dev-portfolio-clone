@@ -21,7 +21,7 @@ export default function Portfolio() {
                                     <a className="m-2 portfolio-link icon-link" href={item.githubRepo} target="_blank" rel="noreferrer"><AiFillGithub /></a>
                                 </h5>
                                 <p className="card-text text-center w-100 h-80 m-2 portfolio-desc">{item.skills}</p>
-                                <p className="card-text text-center w-100 h-80 m-2 portfolio-desc">{item.description}</p>
+                                {/* <p className="card-text text-center w-100 h-80 m-2 portfolio-desc">{item.description}</p> */}
                             </div>
                         </div>
                     ))}
