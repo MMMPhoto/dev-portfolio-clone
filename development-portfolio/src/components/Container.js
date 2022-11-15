@@ -1,5 +1,6 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import React from "react";
+import { Route, Routes, useLocation } from "react-router-dom";
+import React, { useContext } from "react";
+import { useTransition, animated } from "react-spring";
 import Header from "./Header";
 import Nav from "./Nav";
 import Footer from "./Footer";
@@ -11,21 +12,35 @@ import pageList from "../data/pageList";
 
 export default function Container() {
 
+    let location = useLocation();
+    console.log(location);
+
+    // const transitions = useTransition(location, {
+    // });
+    
+    const transitions = useTransition(location, {
+        from: { opacity: 0 },
+        enter: { opacity: 1 },
+        leave: { opacity: 0 }
+    })
+
     return (
         <div>
-            <Router>
-                <div className="d-flex flex-column flex-lg-row justify-content-between">
-                    <Header />
-                    <Nav pages={pageList} />
-                </div>
-                    <Routes>
-                        <Route exact path="/Development-Portfolio" element={<About />} />
-                        <Route exact path="/Development-Portfolio/work" element={<Portfolio />} />
-                        <Route exact path="/Development-Portfolio/contact" element={<Contact />} />
-                        <Route exact path="/Development-Portfolio/resume" element={<Resume />} />
-                    </Routes>
+            <div className="d-flex flex-column flex-lg-row justify-content-between">
+                <Header />
+                <Nav pages={pageList} location={location} />
+            </div>
+                {transitions((props, item) => (
+                    <animated.div style={props}>
+                        <Routes location={item}>
+                            <Route path="/Development-Portfolio" element={<About />} />
+                            <Route path="/Development-Portfolio/work" element={<Portfolio />} />
+                            <Route path="/Development-Portfolio/contact" element={<Contact />} />
+                            <Route path="/Development-Portfolio/resume" element={<Resume />} />
+                        </Routes>
+                    </animated.div>
+                ))}
                 <Footer />
-            </Router>
         </div>
     )
 };
