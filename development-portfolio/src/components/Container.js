@@ -15,12 +15,9 @@ export default function Container() {
     let location = useLocation();
 
     const transitions = useTransition(location, {
-        from: { opacity: 0, transform: "translate3d(100%, 0, 0)" },
-        enter: { opacity: 1, transform: "translate3d(0%, 0, 0)" },
-        leave: { opacity: 0},
-        // trail: 500,
-        // duration: 100,
-        exitBeforeEnter: true
+        from: { position: "absolute", opacity: 0, transform: "translate3d(100%, 0, 0)" },
+        enter: { position: "relative", opacity: 1, transform: "translate3d(0%, 0, 0)" },
+        leave: { position: "absolute", opacity: 0, transform: "translate3d(-25%, 0, 0)"}
     });
 
     return (
