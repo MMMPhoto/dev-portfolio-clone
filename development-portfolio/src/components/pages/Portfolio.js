@@ -1,6 +1,4 @@
 import React from "react";
-import AbsoluteWrapper from "../AbsoluteWrapper";
-import Footer from "../Footer";
 import { AiFillGithub } from "react-icons/ai";
 
 import portfolioItems from "../../data/portfolioItems";
@@ -9,7 +7,6 @@ import "../../styles/Portfolio.css";
 export default function Portfolio() {
 
     return (
-        // <AbsoluteWrapper>
              <div className="m-5 mt-0 mb-0 d-flex flex-column align-items-center align-items-lg-start">
                 <h2>Portfolio</h2>
                 <div className="d-flex flex-row flex-wrap justify-content-center">
@@ -30,7 +27,5 @@ export default function Portfolio() {
                     ))}
                 </div>
             </div>
-            // <Footer />
-        // </AbsoluteWrapper>
     );
 };

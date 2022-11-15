@@ -1,6 +1,6 @@
 import { Route, Routes, useLocation } from "react-router-dom";
 import React from "react";
-import { useTransition, animated, easings } from "react-spring";
+import { useTransition, animated } from "react-spring";
 import Header from "./Header";
 import Nav from "./Nav";
 import Footer from "./Footer";

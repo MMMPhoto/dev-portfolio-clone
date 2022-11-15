@@ -9,8 +9,7 @@ const App = () => {
         <Router>
             <Container />
         </Router>
-    )
-
+    );
 };
 
 export default App;

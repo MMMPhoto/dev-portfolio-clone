@@ -1,6 +1,4 @@
 import React, { useRef, useState } from "react";
-import AbsoluteWrapper from "../AbsoluteWrapper";
-import Footer from "../Footer";
 import emailjs from "@emailjs/browser";
 
 export default function Contact() {
@@ -35,7 +33,6 @@ export default function Contact() {
     };
 
     return (
-        // <AbsoluteWrapper>
             <div className="m-5 mt-0 mb-0 d-flex flex-column align-items-center align-items-lg-start">
                 <h3>Contact</h3>
                 <p className="border-0">Fill out the form below, or send me a message at <a href={`${botHider1}:${botHider2}${botHider3}${botHider4}${botHider5}${botHider6}`}>m{/* Hide from Bots */}ax.{/* Hide from Bots */}mcd{/* Hide from Bots */}ono{/* Hide from Bots */}ugh{/* Hide from Bots */}@g{/* Hide from Bots */}ma{/* Hide from Bots */}il.com</a></p>
@@ -58,7 +55,5 @@ export default function Contact() {
                     </div>
                 </form>
             </div>
-            // <Footer />
-        // </AbsoluteWrapper>
     );
 };

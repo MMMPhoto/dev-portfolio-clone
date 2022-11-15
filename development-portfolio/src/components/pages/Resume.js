@@ -1,10 +1,7 @@
 import React from "react";
-import AbsoluteWrapper from "../AbsoluteWrapper";
-import Footer from "../Footer";
 
 export default function Resume() {
     return (
-        // <AbsoluteWrapper>
             <div className="m-5 mt-0 mb-0 d-flex flex-column align-items-center align-items-lg-start">
                 <h2 className="text-center text-lg-start">Resume</h2>
                     <br></br>
@@ -42,7 +39,5 @@ export default function Resume() {
                     </div>
                 </div>
             </div>
-            // <Footer />
-        // </AbsoluteWrapper>
     );
 };
