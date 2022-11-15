@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import React, { useState } from "react";
+import React from "react";
 import Header from "./Header";
 import Nav from "./Nav";
 import Footer from "./Footer";
@@ -10,16 +10,13 @@ import Resume from "./pages/Resume";
 import pageList from "../data/pageList";
 
 export default function Container() {
-    const [currentPage, setCurrentPage] = useState('');
-
-    const handlePage = (page) => setCurrentPage(page);
 
     return (
         <div>
             <Router>
                 <div className="d-flex flex-column flex-lg-row justify-content-between">
-                    <Header pageList={pageList} currentPage={currentPage} handlePage={handlePage} />
-                    <Nav pages={pageList} currentPage={currentPage} handlePage={handlePage}/>
+                    <Header />
+                    <Nav pages={pageList} />
                 </div>
                     <Routes>
                         <Route exact path="/Development-Portfolio" element={<About />} />

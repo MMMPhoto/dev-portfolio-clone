@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/Nav.css";
 import { NavLink } from "react-router-dom";
 
-export default function Nav({pages, currentPage, handlePage}) { 
+export default function Nav({pages}) { 
     return (
         <nav className="col-12 col-lg-6 p-3 align-self-center align-self-lg-end">
             <div className="nav nav-pills nav-fill flex-row justify-content-end navbar-nav">              
