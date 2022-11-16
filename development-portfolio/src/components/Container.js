@@ -37,7 +37,9 @@ export default function Container() {
                         </Routes>
                     </animated.div>
                 ))}
-            <Footer />
+            <div style={{ maxWidth: "99vw" }} >
+                <Footer />
+            </div>
         </div>
     )
 };
