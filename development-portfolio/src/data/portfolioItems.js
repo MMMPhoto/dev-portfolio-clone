@@ -27,7 +27,7 @@ const portfolioItems = [
         name: "Adopt Me",
         description: "Website to search for pets up listed for adoption",
         skills: "MVC, Node, Express, Sequelize, SQL",
-        deploymentUrl: "https://adoptme5.herokuapp.com/",
+        deploymentUrl: "https://adoptme.herokuapp.com/",
         githubRepo: "https://github.com/JasmineDaniels/AdoptMe",
         imgSrc: `${adoptMeScreenshot}`
     },
