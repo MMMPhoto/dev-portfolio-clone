@@ -9,7 +9,7 @@ export default function About() {
                 <div className="d-flex flex-column flex-lg-row align-items-center justify-content-lg-between">
                     <img className="align-self-center align-self-lg-start" id="bio-photo" src={maxPhoto} alt="pic of Max"></img>
                     <div className="mt-3 col-12 col-lg-8">
-                        <p>Front End Web Developer with extensive experience in the media and visual arts, providing an intuitive understanding of how to create a seamless and polished user experience. Recently earned a certification in Full Stack Development from Georgia Tech University, specializing in Javascript ES6+, React, NodeJS, and RESTful APIs.</p>
+                        <p>Full Stack Software Engineer with extensive experience in the media and visual arts, providing an intuitive understanding of how to create a seamless and polished user experience. Recently earned a certification in Full Stack Development from Georgia Tech University, specializing in Javascript ES6+, React, NodeJS, and RESTful APIs.</p>
                         <br></br>
                         <p>I approach each new project with a focus on creating a Minimum Viable Product first and then using Agile workflow to continuously improve the user experience. I am passionate about developing apps with a focus on visual media, mobile-first design, and location integration. On a recent group project developing a single-page MERN app, I took the lead in integrating the Google Maps API and set up a cloud database to store user-uploaded media files.</p>
                         <br></br>
