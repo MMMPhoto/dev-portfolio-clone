@@ -6,8 +6,6 @@ export default function Resume() {
                 <h2 className="text-center text-lg-start">Resume</h2>
                     <br></br>
                     <h5><a href="https://docs.google.com/document/d/1WYTO2UKo25lkWQSVh45Y2jmHdp3Wcpb67ixSB61jwLM/export?format=pdf">Download my Resume</a></h5>
-                    {/* https://docs.google.com/document/d/1WYTO2UKo25lkWQSVh45Y2jmHdp3Wcpb67ixSB61jwLM/edit?usp=sharing */}
-                    {/* https://docs.google.com/document/d/1VRYrZn1ywYJyVezHdJHB3-S9vtUisbd1upvIRaHX4sE/export?format=pdf */}
                     <br></br>
                 <div className="d-flex flex-column flex-lg-row container row">
                     <div className="d-flex flex-column col-6">
