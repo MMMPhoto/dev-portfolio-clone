@@ -1,3 +1,7 @@
+.nav-link {
+  font-size: 3vw !important;
+}
+
 .nav-link.active {
     color: #FFF !important;
     background-color: #465887 !important;
@@ -5,5 +9,17 @@
 
 .nav-link:hover {
     background-color: #8fa3d7 !important;
+}
+
+@media (min-width: 576px) {
+  .nav-link {
+      font-size: 2vw;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav-link {
+      font-size: 20px !important;
+  }
 }
 
