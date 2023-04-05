@@ -62,9 +62,9 @@ const portfolioItems = [
         id: 6,
         name: "View From Here",
         description: "Website to search for and upload photos of interesting views based on location",
-        skills: "MERN Full Stack (React, Mongo, NodeJS, Express), Google Maps API",
-        deploymentUrl: "https://viewfromhere.herokuapp.com/",
-        githubRepo: "https://github.com/MMMPhoto/View-From-Here",
+        skills: "MERN Full Stack (React, Mongo, NodeJS, Express), Google Maps API, Typescript",
+        deploymentUrl: "https://view-from-here.herokuapp.com/",
+        githubRepo: "https://github.com/MMMPhoto/View-From-Here-TS",
         imgSrc: `${viewFromHereScreenshot}`
     },
 ];
