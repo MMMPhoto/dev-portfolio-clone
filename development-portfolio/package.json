@@ -2,7 +2,7 @@
   "name": "development-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mmmphoto.github.io/dev-portfolio-clone/",
+  "homepage": "https://webdev.maxmcdonough.com",
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
     "@testing-library/jest-dom": "^5.16.5",
