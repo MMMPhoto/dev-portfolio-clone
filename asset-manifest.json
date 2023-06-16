@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/dev-portfolio-clone/static/css/main.1a0179c8.css",
-    "main.js": "/dev-portfolio-clone/static/js/main.19fbc360.js",
-    "static/js/787.ab59c606.chunk.js": "/dev-portfolio-clone/static/js/787.ab59c606.chunk.js",
-    "static/media/View-From-Here-screenshot.png": "/dev-portfolio-clone/static/media/View-From-Here-screenshot.01866f199c26a3bfb7ad.png",
-    "static/media/job-search-automate-screenshot.png": "/dev-portfolio-clone/static/media/job-search-automate-screenshot.c39cd924f41539dfd803.png",
-    "static/media/Adopt-Me-Screenshot.png": "/dev-portfolio-clone/static/media/Adopt-Me-Screenshot.7ab6165f596b4672394e.png",
-    "static/media/Social-Media-API-Screenshot.png": "/dev-portfolio-clone/static/media/Social-Media-API-Screenshot.3a802f9caf65ccf51dcd.png",
-    "static/media/max-photo.jpg": "/dev-portfolio-clone/static/media/max-photo.6c72387cbc6fd663faa4.jpg",
-    "static/media/mmm-web-logo.svg": "/dev-portfolio-clone/static/media/mmm-web-logo.e9e0d9d9d0968a0db43862d96d3ef2a1.svg",
-    "index.html": "/dev-portfolio-clone/index.html",
-    "main.1a0179c8.css.map": "/dev-portfolio-clone/static/css/main.1a0179c8.css.map",
-    "main.19fbc360.js.map": "/dev-portfolio-clone/static/js/main.19fbc360.js.map",
-    "787.ab59c606.chunk.js.map": "/dev-portfolio-clone/static/js/787.ab59c606.chunk.js.map"
+    "main.css": "/static/css/main.1a0179c8.css",
+    "main.js": "/static/js/main.8058a8cf.js",
+    "static/js/787.ab59c606.chunk.js": "/static/js/787.ab59c606.chunk.js",
+    "static/media/View-From-Here-screenshot.png": "/static/media/View-From-Here-screenshot.01866f199c26a3bfb7ad.png",
+    "static/media/job-search-automate-screenshot.png": "/static/media/job-search-automate-screenshot.c39cd924f41539dfd803.png",
+    "static/media/Adopt-Me-Screenshot.png": "/static/media/Adopt-Me-Screenshot.7ab6165f596b4672394e.png",
+    "static/media/Social-Media-API-Screenshot.png": "/static/media/Social-Media-API-Screenshot.3a802f9caf65ccf51dcd.png",
+    "static/media/max-photo.jpg": "/static/media/max-photo.6c72387cbc6fd663faa4.jpg",
+    "static/media/mmm-web-logo.svg": "/static/media/mmm-web-logo.e9e0d9d9d0968a0db43862d96d3ef2a1.svg",
+    "index.html": "/index.html",
+    "main.1a0179c8.css.map": "/static/css/main.1a0179c8.css.map",
+    "main.8058a8cf.js.map": "/static/js/main.8058a8cf.js.map",
+    "787.ab59c606.chunk.js.map": "/static/js/787.ab59c606.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1a0179c8.css",
-    "static/js/main.19fbc360.js"
+    "static/js/main.8058a8cf.js"
   ]
 }
